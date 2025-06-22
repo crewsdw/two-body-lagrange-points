@@ -2,7 +2,7 @@
 
 A Julia script for visualizing the effective potential and Lagrange points in a two-body gravitational system using contour plots.
 
-![Two-Body Effective Potential](two_body_isopotential.png)
+![Two-Body Effective Potential](two_body_isopotential.png?v=2)
 
 *Visualization showing the effective potential (gravitational + centrifugal) in a rotating two-body system with mass ratio 10:1. The five Lagrange points are visible as equilibrium points in the potential landscape.*
 
