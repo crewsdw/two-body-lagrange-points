@@ -2,6 +2,10 @@
 
 A Julia script for visualizing the effective potential and Lagrange points in a two-body gravitational system using contour plots.
 
+![Two-Body Effective Potential](two_body_isopotential.png)
+
+*Visualization showing the effective potential (gravitational + centrifugal) in a rotating two-body system with mass ratio 10:1. The five Lagrange points are visible as equilibrium points in the potential landscape.*
+
 ## Overview
 
 This project calculates and visualizes the five Lagrange points (L1-L5) in a simplified two-body system by plotting the effective potential in a rotating reference frame. The effective potential combines:
@@ -89,10 +93,14 @@ The visualization shows:
 
 ### Lagrange Points Identification
 
-- **L1**: Between the two masses (saddle point)
-- **L2**: Beyond the smaller mass (saddle point)  
-- **L3**: Beyond the larger mass (saddle point)
-- **L4, L5**: Forming equilateral triangles with the two masses (local maxima in effective potential)
+In the visualization above, you can identify the five Lagrange points:
+
+- **L1**: Between the two masses (saddle point) - visible as a "pass" in the potential landscape
+- **L2**: Beyond the smaller mass (saddle point) - another saddle point on the line connecting the masses  
+- **L3**: Beyond the larger mass (saddle point) - the third collinear equilibrium point
+- **L4, L5**: Forming equilateral triangles with the two masses (local maxima in effective potential) - appear as "hills" above and below the mass line
+
+The contour plot clearly shows how the combined gravitational and centrifugal potentials create these special equilibrium regions where a test particle would remain stationary in the rotating reference frame.
 
 ## Customization
 
